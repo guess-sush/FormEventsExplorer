@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FormEventExplorerXrmToolBox</RootNamespace>
+    <AssemblyName>FormEventExplorer</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>FormEventExplorer</PackageId>
+    <Title>Form Event Explorer</Title>
+    <Authors>Sushant-Salunkhe</Authors>
+    <Company />
+    <Description>Inspect main form events, field OnChange handlers and business rules.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>XrmToolBox FormEvents FormEventExplorer</PackageTags>
+    <PackageReleaseNotes>## Features
+
+- Select a Dataverse table and main form
+- View form OnLoad and OnSave handlers
+- View field OnChange handlers, function names and JavaScript libraries
+- View associated business rules
+- Search each result grid
+- Export the selected form configuration to CSV</PackageReleaseNotes>
+    <Product>FormEventExplorer</Product>
+    <FileVersion></FileVersion>
+    <AssemblyVersion></AssemblyVersion>
+    <Version>1.0.4</Version>
+    <ApplicationIcon></ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MscrmTools.Xrm.Connection" Version="1.2025.9.64" />
+    <PackageReference Include="XrmToolBoxPackage" Version="1.2025.10.74" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
