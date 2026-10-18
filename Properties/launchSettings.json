@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FormEventExplorerXrmToolBox": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}
